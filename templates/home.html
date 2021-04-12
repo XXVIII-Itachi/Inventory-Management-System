@@ -1,0 +1,74 @@
+{% extends "layout.html" %} 
+
+{% block content %}
+This is the Dashboard
+
+<div class="ui search">
+    <div class="ui icon input">
+        <input class="prompt" type="text" placeholder="Search Product">
+        <i class="search icon"></i>
+    </div>
+    <div class="results"></div>
+</div>
+
+<div class="ui form">
+    <div class="grouped fields">
+        <label>Price Range</label>
+        <div class="field">
+            <div class="ui slider checkbox">
+                <input type="radio" name="throughput" checked="checked">
+                <label>Upto 3000BDT</label>
+            </div>
+        </div>
+        <div class="field">
+            <div class="ui slider checkbox">
+                <input type="radio" name="throughput">
+                <label>Upto 5000BDT</label>
+            </div>
+        </div>
+        <div class="field">
+            <div class="ui slider checkbox">
+                <input type="radio" name="throughput">
+                <label>Upto 7000BDT</label>
+            </div>
+        </div>
+        <div class="field">
+            <div class="ui slider checkbox checked">
+                <input type="radio" name="throughput">
+                <label>Upto 10000BDT</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="ui celled table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Product ID</th>
+            <th>Stock</th>
+            <th>Price Range</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Product">Sneakers</td>
+            <td data-label="Product ID">MS</td>>
+            <td data-label="Stock">20</td>
+            <td data-label="Price Range">1500-3000BDT</td>
+        </tr>
+        <tr>
+            <td data-label="Product">BackPack</td>
+            <td data-label="Product ID">BP</td>>
+            <td data-label="Stock">15</td>
+            <td data-label="Price Range">550-1200BDT</td>
+        </tr>
+        <tr>
+            <td data-label="Product">PowerBank</td>
+            <td data-label="Product ID">MAPB</td>>
+            <td data-label="Stock">10</td>
+            <td data-label="Price Range">3000-5000BDT</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
