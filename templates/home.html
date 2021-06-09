@@ -1,74 +1,1168 @@
-{% extends "layout.html" %} 
+<html> 
 
-{% block content %}
-This is the Dashboard
+    <head> 
 
-<div class="ui search">
-    <div class="ui icon input">
-        <input class="prompt" type="text" placeholder="Search Product">
-        <i class="search icon"></i>
-    </div>
-    <div class="results"></div>
-</div>
+        <title>Stock Screener</title> 
 
-<div class="ui form">
-    <div class="grouped fields">
-        <label>Price Range</label>
-        <div class="field">
-            <div class="ui slider checkbox">
-                <input type="radio" name="throughput" checked="checked">
-                <label>Upto 3000BDT</label>
-            </div>
-        </div>
-        <div class="field">
-            <div class="ui slider checkbox">
-                <input type="radio" name="throughput">
-                <label>Upto 5000BDT</label>
-            </div>
-        </div>
-        <div class="field">
-            <div class="ui slider checkbox">
-                <input type="radio" name="throughput">
-                <label>Upto 7000BDT</label>
-            </div>
-        </div>
-        <div class="field">
-            <div class="ui slider checkbox checked">
-                <input type="radio" name="throughput">
-                <label>Upto 10000BDT</label>
-            </div>
-        </div>
-    </div>
-</div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> 
 
-<table class="ui celled table">
-    <thead>
-        <tr>
-            <th>Product</th>
-            <th>Product ID</th>
-            <th>Stock</th>
-            <th>Price Range</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td data-label="Product">Sneakers</td>
-            <td data-label="Product ID">MS</td>>
-            <td data-label="Stock">20</td>
-            <td data-label="Price Range">1500-3000BDT</td>
-        </tr>
-        <tr>
-            <td data-label="Product">BackPack</td>
-            <td data-label="Product ID">BP</td>>
-            <td data-label="Stock">15</td>
-            <td data-label="Price Range">550-1200BDT</td>
-        </tr>
-        <tr>
-            <td data-label="Product">PowerBank</td>
-            <td data-label="Product ID">MAPB</td>>
-            <td data-label="Stock">10</td>
-            <td data-label="Price Range">3000-5000BDT</td>
-        </tr>
-    </tbody>
-</table>
-{% endblock %}
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+
+        <scriptsrc="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script> 
+
+    </head> 
+
+    <body> 
+
+        <div class="ui container"> 
+
+      <h2><center>Dashboard</center></h2> 
+
+        <h3>Database:</h3> 
+        <h3><B>Owners:</B>
+
+ 
+ 
+
+        
+
+        <table class="ui compact celled definition table"> 
+
+            <thead class="full-width"> 
+
+              <tr> 
+
+                <th></th> 
+
+                <th>Add/Remove Products</th> 
+
+                <th>Product Quantity</th> 
+
+                <th>Description</th> 
+
+                <th>Shipments</th> 
+
+                <th>Collect Data & Market Analysis(Rating)</th> 
+
+                <th>QR based Shopping</th> 
+
+ 
+ 
+
+              </tr> 
+
+            </thead> 
+
+            <tbody> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Item A</td> 
+
+                <td>3150</td> 
+
+                <td>DESC A</td> 
+
+                <td>Open Shipment</td> 
+
+                <td>4.4</td> 
+
+                <td>Available</td> 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Item B</td> 
+
+                <td>2320</td> 
+
+                <td>DESC.B</td> 
+
+                <td>Close Shipment</td> 
+
+                <td>3.7</td> 
+
+                <td>Not Available</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Item C</td> 
+
+                <td>5100</td> 
+
+                <td>DESC.C</td> 
+
+                <td>Open Shipment</td> 
+
+                <td>4.6</td> 
+
+                <td>Available</td> 
+
+                </tr> 
+
+              </div> 
+
+              </tr> 
+
+            </tbody> 
+
+            <tfoot class="full-width"> 
+
+              </tfoot> 
+
+              </tr> 
+
+              
+
+                  </div> 
+
+                </th> 
+
+              </tr> 
+
+            </tfoot> 
+
+          </table> 
+
+           
+
+           
+
+ 
+ 
+
+    </div> 
+
+     </body> 
+
+     </html> 
+
+</html> 
+
+<html> 
+
+    <head> 
+
+        <title>Stock Screener</title> 
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> 
+
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+
+        <scriptsrc="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script> 
+
+    </head> 
+
+    <body> 
+
+        <div class="ui container"> 
+
+       
+
+         
+
+ 
+ 
+ 
+
+<table class="ui celled structured table"> 
+
+  <h2>Shopper:</h2> 
+
+  <thead> 
+
+    <tr> 
+
+      <th rowspan="2">User ID</th> 
+
+      <th rowspan="2">Product Name</th> 
+
+      <th rowspan="2">Status</th> 
+
+      <th colspan="3">Place Order</th> 
+
+    </tr> 
+
+     
+
+    <tr> 
+
+      <th>Quantity</th> 
+
+      <th>Payment Method</th> 
+
+      <div> 
+
+         
+
+        <tfoot class="full width"> 
+
+        <th><button class="ui secondary button"> 
+
+          Okay 
+
+        </button> 
+
+        <button class="ui button"> 
+
+          Cancel 
+
+        </button></th> 
+
+      </td> 
+
+      </div> 
+
+    </tfoot class="full-width"> 
+
+    </tr> 
+
+  </thead> 
+
+  <tbody> 
+
+    <tr> 
+
+    </tfoot class="full-width"> 
+
+      <td>Std-09</td> 
+
+      <td>ABC</td> 
+
+      <td class="center aligned">Available</td> 
+
+      <td class="center aligned">5</td> 
+
+      <td>Cash</td> 
+
+      </td> 
+
+      <td></td> 
+
+      <td></td> 
+
+    </tr> 
+
+    <tr> 
+
+      <td rowspan="5">Std-023</td> 
+
+      <td>SCH</td> 
+
+      <td class="center aligned">Available</td> 
+
+      <td class="center aligned"> 
+
+        <i>15</i> 
+
+      </td> 
+
+      <td>Cash</td> 
+
+      <td></td> 
+
+    </tr> 
+
+    <tr> 
+
+      <td>XYZ</td> 
+
+      <td class="center aligned">Available</td> 
+
+      <td class="center aligned"> 
+
+        <i>12</i> 
+
+      </td> 
+
+      <td>Cash</td> 
+
+      <td></td> 
+
+    </tr> 
+
+    <tr> 
+
+      <td>SCH</td> 
+
+      <td class="center aligned">Not Available</td> 
+
+      <td class="center aligned"> 
+
+        <i>--</i> 
+
+      </td> 
+
+      <td>--</td> 
+
+      <td></td> 
+
+    </tr> 
+
+  </tbody> 
+
+</table> 
+
+ 
+ 
+
+<html> 
+
+    <head> 
+
+        <title>Stock Screener</title> 
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> 
+
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+
+        <scriptsrc="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script> 
+
+    </head> 
+
+    <body> 
+
+        <div class="ui container"> 
+
+        <h2>Product Database:</h2> 
+
+        
+
+        <table class="ui compact celled definition table"> 
+
+            <thead class="full-width"> 
+
+              <tr> 
+
+                <th></th> 
+
+                <th>Product ID</th> 
+
+                <th>Product Name</th> 
+
+                <th>Product Description</th> 
+
+                <th>Stock</th> 
+
+                <th>Price</th> 
+
+                </tr> 
+
+              </tr> 
+
+            </thead> 
+
+            <tbody> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>111</td> 
+
+                <td>ABC</td> 
+
+                <td>DESC A.</td> 
+
+                <td>Available</td> 
+
+                <td>BDT 1250/-</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>234</td> 
+
+                <td>SCH</td> 
+
+                <td>DESC B.</td> 
+
+                <td>Available</td> 
+
+                <td>BDT 1800/-</td> 
+
+               
+
+               
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>522</td> 
+
+                <td>XYZ</td> 
+
+                <td>DESC C.</td> 
+
+                <td>Not Available</td> 
+
+                <td>BDT 1050/-</td> 
+
+              </tr> 
+
+ 
+ 
+
+            </tr> 
+
+            <tr> 
+
+              <td class="collapsing"> 
+
+                <div class="ui fitted slider checkbox"> 
+
+                  <input type="checkbox"> <label></label> 
+
+                </div> 
+
+              </td> 
+
+              <td>411</td> 
+
+              <td>RTX</td> 
+
+              <td>DESC D.</td> 
+
+              <td>Available</td> 
+
+              <td>BDT 1960/-</td> 
+
+            </div> 
+
+          </tr> 
+
+        </tr> 
+
+        <tr> 
+
+          <td class="collapsing"> 
+
+            <div class="ui fitted slider checkbox"> 
+
+              <input type="checkbox"> <label></label> 
+
+            </div> 
+
+          </td> 
+
+          <td>344</td> 
+
+          <td>HBD</td> 
+
+          <td>DESC E.</td> 
+
+          <td>Available</td> 
+
+          <td>BDT 1100/-</td> 
+
+ 
+ 
+
+        </tr> 
+
+        <tr> 
+
+          <td class="collapsing"> 
+
+            <div class="ui fitted slider checkbox"> 
+
+              <input type="checkbox"> <label></label> 
+
+            </div> 
+
+          </td> 
+
+          <td>911</td> 
+
+          <td>FED</td> 
+
+          <td>DESC F.</td> 
+
+          <td>Not Available</td> 
+
+          <td>BDT 2100/-</td> 
+
+          </tr> 
+
+          </tbody> 
+
+            <tfoot class="full-width"> 
+
+              <tr> 
+
+                <th></th> 
+
+                <th colspan="5"> 
+
+                  <div class="ui right floated small primary labeled icon button"> 
+
+                    <i class="user icon"></i>Add Product 
+
+                  </div> 
+
+                </th> 
+
+              </tr> 
+
+            </tfoot> 
+
+            </tr> 
+
+              </table> 
+
+                </html> 
+
+                 
+
+                <html> 
+
+                  <head> 
+
+                      <title>Stock Screener</title> 
+
+                      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> 
+
+                      <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+
+                      <scriptsrc="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script> 
+
+                  </head> 
+
+                  <body> 
+
+                      <div class="ui container"> 
+
+                      <h2>User Database:</h2> 
+
+                       
+
+                      <table class="ui compact celled definition table"> 
+
+                          <thead class="full-width"> 
+
+                            <tr> 
+
+                              <th></th> 
+
+                              <th>User ID</th> 
+
+                              <th>User Name</th> 
+
+                              <th>User E-mail address</th> 
+
+                              <th>User Password</th> 
+
+                              <th>User Phone No.</th> 
+
+                              <th>User Address</th> 
+
+                            </tr> 
+
+                          </thead> 
+
+                          <tbody> 
+
+                            <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-09</td> 
+
+                              <td>Enamul</td> 
+
+                              <td>islamanamul566@gmail.com</td> 
+
+                              <td>Dsch-09</td> 
+
+                              <td>01800....</td> 
+
+                              <td>Rampura</td> 
+
+                            </tr> 
+
+                            <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-023</td> 
+
+                              <td>Sadman</td> 
+
+                              <td>Sadman@gmail.com</td> 
+
+                              <td>JHJ-225</td> 
+
+                              <td>01711.....</td> 
+
+                              <td>Banasree</td> 
+
+                            </tr> 
+
+                            <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-012</td> 
+
+                              <td>Sadil</td> 
+
+                              <td>Sadil@gmail.com</td> 
+
+                              <td>WTO-554</td> 
+
+                              <td>01991.....</td> 
+
+                              <td>Malibag</td> 
+                              </tr> 
+
+                            <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-038</td> 
+
+                              <td>Arko</td> 
+
+                              <td>Arko@gmail.com</td> 
+
+                              <td>Spd-666</td> 
+
+                              <td>01551.....</td> 
+
+                              <td>Gulsan</td> 
+
+                              <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-055</td> 
+
+                              <td>Sakib</td> 
+
+                              <td>Sakib@gmail.com</td> 
+
+                              <td>Css-682</td> 
+
+                              <td>0131.....</td> 
+
+                              <td>Banani</td> 
+
+                              <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-043</td> 
+
+                              <td>Shoyeb</td> 
+
+                              <td>Shoyeb@gmail.com</td> 
+
+                              <td>FFG-995</td> 
+
+                              <td>0141.....</td> 
+
+                              <td>Rajarbag</td> 
+
+                              <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+                              <td>Std-099</td> 
+
+                              <td>Sagor</td> 
+
+                              <td>Sagor@gmail.com</td> 
+
+                              <td>SSR-551</td> 
+
+                              <td>01777.....</td> 
+
+                              <td>Jatrabari</td> 
+
+                              <tr> 
+
+                              <td class="collapsing"> 
+
+                                <div class="ui fitted slider checkbox"> 
+
+                                  <input type="checkbox"> <label></label> 
+
+                                </div> 
+
+                              </td> 
+
+
+                              
+
+
+
+                              
+
+                              
+
+                            </tr> 
+
+                          </tbody> 
+
+                          <tfoot class="full-width"> 
+
+                            <tr> 
+
+                              <th></th> 
+
+                              <th colspan="6"> 
+
+                                <div class="ui right floated small primary labeled icon button"> 
+
+                                  <i class="user icon"></i> Add User 
+
+                                </div> 
+
+                                <div class="ui small  button"> 
+
+                                  Approve 
+
+                                </div> 
+
+                                <div class="ui small  disabled button"> 
+
+                                  Approve All 
+
+                                </div> 
+
+                              </th> 
+
+                            </tr> 
+
+                          </tfoot> 
+
+                        </table> 
+
+               
+
+                  </div> 
+
+                   </body> 
+
+              </html> 
+
+
+
+              <html> 
+
+    <head> 
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> 
+
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+
+        <scriptsrc="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script> 
+
+    </head> 
+
+    <body> 
+
+        <div class="ui container">  
+
+        <h1>Order Database:</h1> 
+
+ 
+ 
+
+        
+
+        <table class="ui compact celled definition table"> 
+
+            <thead class="full-width"> 
+
+              <tr> 
+
+                <th></th> 
+
+                <th>User ID</th> 
+
+                <th>User Name</th>
+                
+                <th>Product ID</th> 
+
+                <th>Product Name</th>
+
+                <th>Product Quantity</th> 
+
+                <th>Status</th> 
+
+                <th>Comments</th>  
+
+ 
+ 
+
+              </tr> 
+
+            </thead> 
+
+            <tbody> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Std-09</td>
+
+                <td>Enamul</td> 
+
+                <td>111</td> 
+
+                <td>ABC</td>
+                
+                <td>250</td> 
+
+                <td>Approved</td> 
+
+                <td>Available</td>  
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Std-055</td> 
+
+                <td>Sakib</td>
+
+                <td>344</td>  
+
+                <td>HBD</td>
+
+                <td>150</td> 
+
+                <td>Delivered</td> 
+
+                <td>Available</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Std-099</td> 
+
+                <td>Sagor</td>
+
+                <td>911</td>  
+
+                <td>FED</td>
+
+                <td>40</td> 
+
+                <td>Cancelled</td> 
+
+                <td>Not Available</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+
+
+                
+
+                <td>Std-023</td> 
+
+                <td>Sadman</td>
+
+                <td>234</td>  
+
+                <td>SCH</td>
+
+                <td>90</td> 
+
+                <td>Pending</td> 
+
+                <td>Available</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Std-09</td> 
+
+                <td>Shoyeb</td>
+
+                <td>111</td>  
+
+                <td>ABC</td>
+
+                <td>180</td> 
+
+                <td>Cancelled</td> 
+                <td>Not Available</td> 
+
+ 
+ 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td> 
+
+                <td>Std-038</td> 
+
+                <td>Arko</td>
+
+                <td>411</td>  
+
+                <td>RTX</td>
+
+                <td>90</td> 
+
+                <td>Delivered</td> 
+
+                <td>Available</td> 
+
+              </tr> 
+
+              <tr> 
+
+                <td class="collapsing"> 
+
+                  <div class="ui fitted slider checkbox"> 
+
+                    <input type="checkbox"> <label></label> 
+
+                  </div> 
+
+                </td>                 
+
+                <td>Std-012</td> 
+
+                <td>Sadil</td>
+                
+                <td>522</td>
+
+                <td>XYZ</td>
+
+                <td>40</td> 
+
+                <td>Cancelled</td> 
+
+                <td>Out of Stock</td> 
+ 
+
+                </tr> 
+
+              </div> 
+
+              </tr> 
+
+            </tbody> 
+
+            <tfoot class="full-width"> 
+
+              </tfoot> 
+
+              </tr>               
+
+                  </div> 
+
+                </th> 
+
+              </tr> 
+
+            </tfoot> 
+
+          </table> 
+
+    </div> 
+
+     </body> 
+
+     </html>
